@@ -1,0 +1,63 @@
+CLASSES AND OBJECTS
+ACCESS MODIFIERS
+GETTERS & SETTERS
+Get: to return the value
+Set: to modify the value
+
+THIS: this keyword is used to refer to the current object.
+
+ENCAPSULATION: is defined as the wrapping up of data & methods under a single unit. It also implements data hiding.
+- aka data hiding -> private/default/protected -> useless/sensitive data
+
+CONSTRUCTOR: is a special method which is invoked automatically at the time of object creation.
+- constructors have the same name as class or structure.
+- constructors dont have a return type.(not even void).
+- constructors are only called once, at object creation.
+- memory allocation happens when constructor is called.
+
+TYPES of constructors:
+- non-parameterised
+- parameterised
+- copy constructor: by default in cpp but created manually in java
+
+CONSTRUCTOR OVERLOADING: too many constructors with different arguments and different data types. example of polymorphism.
+
+SHALLOW & DEEP COPY
+shallow: changes reflect
+deep: changes don't reflect
+GOOGLE LAZY COPY
+
+DESTRUCTORS: special function in cpp that remove memory from object.
+in java, garbage collector does that automatically by scanning and removing unused.
+
+INHERITANCE: is when properties and methods of base class are passed on to a derived class.
+TYPES:
+- single level inheritance. base class -> derived class
+- multi level inheritance. base class -> derived class -> derived class
+- Hierarchical inheritance. base class -> derived class 1; base class -> derived class 2.
+- hybrid inheritance
+- multiple inheritance = only in cpp not in java
+
+POLYMORPHISM
+- compile time polymorphism = method overloading.
+- run time polymorphism = method overriding.
+
+METHOD OVERLOADING: multiple functions with the same name but different parameters
+METHOD OVERRIDING: parent and child classes both contain the same function with a different definition.
+
+PACKAGES in java: is a group of similar types of classes, interfaces and sub-packages.
+- inbuilt packages
+-
+
+ABSTRACTION: hiding all the unnecessary details and showing only the important parts to the user
+- abstract class
+- interfaces
+
+STATIC keyword in java is used to share the same variable or method of a given class
+- properties
+- functions
+- blocks
+- nested classes
+
+SUPER keyword is used to refer immediate parent class object
+- to access parent's properties, functions, constructor
